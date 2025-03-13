@@ -1,3 +1,6 @@
-ban_kinh = float(input("Nhap bankinh hinh tron: "))
+# Nhập bán kính từ người dùng
+ban_kinh = float(input("Nhập bán kính hình tròn: "))
+# Tính diện tích của hình tròn
 dien_tich = 3.14 * (ban_kinh ** 2)
-print("dien tich cua hinh tron la:", dien_tich)
+# In diện tích của hình tròn ra màn hình
+print("Diện tích của hình tròn là: ", dien_tich)

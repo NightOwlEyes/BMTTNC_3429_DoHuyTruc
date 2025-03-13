@@ -1,5 +1,6 @@
-so = int (input("Nhap mot so nguyen: "))
+# Nhập số từ người dùng
+so = int(input("Nhập môt số nguyên: "))
 if so % 2 == 0:
-    print (so, "la so chan")
+    print(so, "là số chẵn.")
 else:
-    print (so, "khong phai la so chan")
+    print(so, "không phải là số chẵn.")
